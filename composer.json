@@ -17,6 +17,8 @@
     "phpunit/phpunit": "11.0.7"
   },
   "autoload": {
-    "Zero\\Dota\\": "src/"
+    "psr-4": {
+      "Zero\\Dota\\": "src/"
+    }
   }
 }
